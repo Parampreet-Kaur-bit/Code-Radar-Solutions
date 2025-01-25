@@ -4,9 +4,9 @@ int main() {
     char a;
     int s;
     scanf("%d",&s);
-    for(int i=0;i<s;i++) {
+    for(int i=1;i<=s;i++) {
         a='A';
-        for(int j=0;j<i;j++) {
+        for(int j=1;j<=i;j++) {
             printf("%c ",a);
             a++;
         }

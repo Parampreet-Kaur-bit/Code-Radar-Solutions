@@ -8,6 +8,7 @@ int main() {
         t='A';
         for(int j=1;j<=a-i+1;j++) {
             printf("%c ",t);
+            t++;
         }
         printf("\n");
     }

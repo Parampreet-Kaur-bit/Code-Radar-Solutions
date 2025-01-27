@@ -9,7 +9,7 @@ int main() {
             printf("%d ",g);
             g++;
         }
-        printf(" ");
+        printf("\n");
     }
     return 0;
 }

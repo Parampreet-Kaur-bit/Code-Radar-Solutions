@@ -19,13 +19,17 @@ bool f(int a) {
 }
 
 int main() {
-    int n;
+    int n,e;
     scanf("%d",&n);
-    if(f(n)) {
+    for(int j=0;j<n;j++) {
+        scanf("%d",&e);
+    
+    if(f(e)) {
         printf("1\n");
     }
     else {
         printf("0\n");
+    }
     }
     return 0;
 }

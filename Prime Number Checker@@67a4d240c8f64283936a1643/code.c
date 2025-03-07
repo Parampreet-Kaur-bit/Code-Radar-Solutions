@@ -19,17 +19,22 @@ bool f(int a) {
 }
 
 int main() {
-    int n,e;
+    int n;
     scanf("%d",&n);
+    int s[n];
     for(int j=0;j<n;j++) {
-        scanf("%d",&e);
+        scanf("%d",&s[j]);}
     
-    if(f(e)) {
+    for(int p=0;p<n;p++) {
+        
+    
+    if(f(s[p])) {
         printf("1\n");
     }
     else {
         printf("0\n");
     }
     }
+    
     return 0;
 }

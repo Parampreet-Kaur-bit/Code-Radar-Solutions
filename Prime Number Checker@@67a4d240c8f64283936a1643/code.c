@@ -23,7 +23,7 @@ int main() {
     scanf("%d",&n);
     int s[n];
     for(int j=0;j<n;j++) {
-        scanf("%d",&s[j]);}
+        scanf("%d\n",&s[j]);}
     
     for(int p=0;p<n;p++) {
         

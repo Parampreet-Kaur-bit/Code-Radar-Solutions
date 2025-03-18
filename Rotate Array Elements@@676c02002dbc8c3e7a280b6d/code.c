@@ -8,7 +8,7 @@ void f(int a[],int l,int h) {
         s[p]=a[i];
         p++;
     }
-    for(int j=0;j<h;j++) {
+    for(int j=0;j<l;j++) {
         s[k]=a[j];
         k++;
     }

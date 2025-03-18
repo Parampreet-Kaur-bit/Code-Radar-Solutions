@@ -2,14 +2,15 @@
 void f(int a[],int l,int h) {
     int s[l];
     int e=h;
+    int k=h;
     int p=0;
     for(int i=(l-e);i<l;i++) {
         s[p]=a[i];
         p++;
     }
     for(int j=0;j<l;j++) {
-        s[h]=a[j];
-        h++;
+        s[k]=a[j];
+        k++;
     }
     for(int o=0;o<l;o++) {
         a[o]=s[o];

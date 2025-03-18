@@ -10,6 +10,9 @@ void f(int a[],int l,int h) {
         s[p]=a[j];
         p++;
     }
+    for(int o=0;o<l;o++) {
+        a[o]=s[o];
+    }
 }
 int main() {
     int n,k;
@@ -19,6 +22,9 @@ int main() {
         scanf("%d\n",&a[i]);
     }
     scanf("%d",&k);
-    f()
+    f(a,n,k);
+    for(int l=0;l<n;l++) {
+        printf("%d\n",a[l]);
+    }
     return 0;
 }

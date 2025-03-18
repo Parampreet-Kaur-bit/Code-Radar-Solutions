@@ -1,14 +1,16 @@
 #include <stdio.h>
 void f(int a[],int l,int h) {
     int s[l];
+    int e=h;
     int p=0;
     for(int i=(l-h);i<l;i++) {
         s[p]=a[i];
         p++;
     }
-    for(int j=0;j<=h;j++) {
-        s[p]=a[j];
-        p++;
+    
+    for(int j=0;j<=e;j++) {
+        s[h]=a[j];
+        h++;
     }
     for(int o=0;o<l;o++) {
         a[o]=s[o];

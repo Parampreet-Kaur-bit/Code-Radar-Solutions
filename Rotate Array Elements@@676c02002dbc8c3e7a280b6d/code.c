@@ -3,12 +3,11 @@ void f(int a[],int l,int h) {
     int s[l];
     int e=h;
     int p=0;
-    for(int i=(l-h);i<l;i++) {
+    for(int i=(l-e);i<l;i++) {
         s[p]=a[i];
         p++;
     }
-    
-    for(int j=0;j<=e;j++) {
+    for(int j=0;j<l;j++) {
         s[h]=a[j];
         h++;
     }

@@ -13,16 +13,3 @@ void f(int r[],int n) {
         }
     }
 }
-int main() {
-    int n;
-    scanf("%d",&n);
-    int a[n];
-    for(int i=0;i<n;i++) {
-        scanf("%d",&a[i]);
-    }
-    f(a,n);
-    for(int y=0;y<n;y++) {
-        printf("%d ",a[y]);
-    }
-    return 0;
-}

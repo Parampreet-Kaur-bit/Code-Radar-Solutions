@@ -3,11 +3,8 @@
 
 bool isPrime(int a) {
     int t=0;
-    if(a==1) {
+    if(a==1 || a==0) {
         return false;
-    }
-    else if(a==0) {
-        return true;
     }
     for(int i=2;i<a;i++) {
         if(a%i==0) {

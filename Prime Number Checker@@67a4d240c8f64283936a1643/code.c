@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-bool f(int a) {
+bool isPrime(int a) {
     int t=0;
     for(int i=2;i<a;i++) {
         if(a%i==0) {

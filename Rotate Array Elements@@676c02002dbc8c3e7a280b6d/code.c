@@ -1,10 +1,9 @@
 #include <stdio.h>
 void f(int a[],int l,int h) {
     int s[l];
-    int e=h;
     int k=h;
     int p=0;
-    for(int i=(l-e);i<l;i++) {
+    for(int i=(l-h);i<l;i++) {
         s[p]=a[i];
         p++;
     }

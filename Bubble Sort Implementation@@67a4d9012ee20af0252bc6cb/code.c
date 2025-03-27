@@ -5,11 +5,16 @@ void swap(int* a,int* b) {
     *a=*b;
     *b=t;
 }
-void f(int r[],int n) {
+void bubbleSort(int r[],int n) {
     for(int i=0;i<n-1;i++) {
         for(int j=i+1;j<n;j++)
         if(r[i]>r[j]) {
             swap(&r[i],&r[j]);
         }
+    }
+}
+void printArray(int a[],int n) {
+    for(int i=0;i<n;i++) {
+        printf("%d ",a[i]);
     }
 }

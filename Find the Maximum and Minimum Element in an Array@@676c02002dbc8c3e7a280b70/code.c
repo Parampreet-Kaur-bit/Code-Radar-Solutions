@@ -1,20 +1,4 @@
 #include <stdio.h>
-int min(int a,int b) {
-    if(a<b) {
-        return a;
-    }
-    else {
-        return b;
-    }
-}
-int max(int a,int b) {
-    if(a>b) {
-        return a;
-    }
-    else {
-        return b;
-    }
-}
 void f(int a[],int n) {
     int r=a[0];
     int s=a[0];
@@ -28,7 +12,7 @@ void f(int a[],int n) {
             r=a[i];
         }
     }
-    printf("%d %d",s,r)
+    printf("%d %d",s,r);
 }
 int main() {
     int n;

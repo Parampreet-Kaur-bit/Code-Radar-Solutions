@@ -20,12 +20,12 @@ int main() {
     scanf("%d\n",&n);
     int a[n];
     for(int i=0;i<n;i++) {
-        scanf("%d\n",&a[i]);
+        scanf("%d ",&a[i]);
     }
-    scanf("%d",&k);
+    scanf("\n%d",&k);
     f(a,n,k);
     for(int l=0;l<n;l++) {
-        printf("%d\n",a[l]);
+        printf("%d ",a[l]);
     }
     return 0;
 }

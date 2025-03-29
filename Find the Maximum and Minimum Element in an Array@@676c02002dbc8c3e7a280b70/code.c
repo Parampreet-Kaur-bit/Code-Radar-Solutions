@@ -16,8 +16,6 @@ int max(int a,int b) {
     }
 }
 void f(int a[],int n) {
-    int n=0;
-    int x=0;
     int r=a[0];
     int s=a[0];
     for(int i=0;i<n;i++) {
